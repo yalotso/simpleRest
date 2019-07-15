@@ -1,0 +1,13 @@
+dsn: "username:password@/database?charset=utf8&parseTime=True"
+server_port: ":8080"
+server_address: "http://localhost:8080"
+smtp_host: "smtp.gmail.com"
+smtp_port: 587
+email_user: ""
+email_password: ""
+email_verification_template: "Please verify your mail: {url}"
+reset_password_template: "Reset your password: {url}"
+
+jwt_signing_method: "HS256"
+jwt_verification_key: "QfCAH04Cob7b71QCqy738vw5XGSnFZ9d"
+jwt_signing_key: "QfCAH04Cob7b71QCqy738vw5XGSnFZ9d"
